@@ -1,0 +1,46 @@
+body {
+	background-color: #505056; /* mørkegrå */
+	font-size: 12px;
+	font-family: Century Gothic;
+	line-height: 1.5;
+/* 	text-align: left;
+	color: #FFF; */
+}
+
+header {
+	background-image: url("streetart.jpg");
+}
+
+a {
+	color: #cacaca; /* lysegrå */
+}
+
+img {
+	
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	color: #cacaca; /* lysegrå */
+}
+
+nav {
+	background-color: #303032; /* svartgrå */
+}
+
+article {
+	color: #cacaca;
+}
+
+aside {
+    float:left;
+	margin: 0px 10px 30px 0px;
+	background-color: transparent;
+}
+
+footer {
+    clear:both;
+}
