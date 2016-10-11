@@ -31,6 +31,9 @@ nav {
 	background-color: #303032; /* svartgrå */
 }
 
+article {
+	color: #cacaca;
+}
 
 aside {
     float:left;
