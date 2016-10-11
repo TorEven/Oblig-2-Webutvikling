@@ -1,1 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
 
+<channel>
+  <title>Street Art</title>
+  <link>http://#</link>
+  <description>Infoside om Street Art</description>
+  <item>
+    <title>Kjente kunstnere</title>
+    <link>http://#</link>
+    <description>Info om kjente kunstnere</description>
+  </item>
+  <item>
+    <title>Street art rundt i verden</title>
+    <link>http://#</link>
+    <description>Info om street art rundt i verden</description>
+  </item>
+</channel>
+
+</rss>
