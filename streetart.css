@@ -1,14 +1,28 @@
+@media screen and (min-width: 480px) {
+    body {
+        
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        
+    }
+}
+
 body {
 	background-color: #505056; /* mørkegrå */
-	font-size: 12px;
+	font-size: 14px;
 	font-family: Century Gothic;
 	line-height: 1.5;
 /* 	text-align: left;
 	color: #FFF; */
-}
-
-header {
-	background-image: url("streetart.jpg");
 }
 
 a {
@@ -42,5 +56,6 @@ aside {
 }
 
 footer {
+	color: #cacaca;
     clear:both;
 }
