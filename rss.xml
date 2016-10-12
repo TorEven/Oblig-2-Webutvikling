@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-
 <channel>
   <title>Street Art</title>
   <link>http://#</link>
   <description>Infoside om Street Art</description>
   <item>
+    <title>Historie</title>
+    <link>http://#</link>
+    <description>Informasjon om historie</description>
+	</item>
+	<item>
     <title>Kjente kunstnere</title>
     <link>http://#</link>
-    <description>Info om kjente kunstnere</description>
-  </item>
-  <item>
-    <title>Street art rundt i verden</title>
+    <description>Informasjon om kjente kunstnere</description>
+    </item>
+    <item>
+    <title>Festivaler</title>
     <link>http://#</link>
-    <description>Info om street art rundt i verden</description>
+    <description>Informasjon om festivaler</description>
+	</item>
+	<item>
+    <title>Street art i Norge</title>
+    <link>http://#</link>
+    <description>Informasjon om street art i Norge</description>
+	<item>
+    <title>Street art i verden</title>
+    <link>http://#</link>
+    <description>Informasjon om street art i verden</description>
+	<item>
+    <title>Galleri</title>
+    <link>http://#</link>
+    <description>Bildegalleri</description>
+  </item>
+  </item>
+  </item>
   </item>
 </channel>
 
