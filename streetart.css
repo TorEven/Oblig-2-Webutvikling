@@ -64,5 +64,6 @@ aside {
 
 footer {
 	color: #cacaca;
-    clear:both;
+    	clear:both;
+	text-align: center;
 }
