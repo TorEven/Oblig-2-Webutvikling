@@ -91,6 +91,8 @@ img {
 
 h1 {
 	color: black;
+	font-family: Century Gothic;
+	font-size: 70px;
 }
 
 h2 {
@@ -104,7 +106,7 @@ nav {
 article {
 	color: #cacaca;
 	position: absolute;
-        top: 300px;
+        top: 420px;
         left: 550px;
         color: lightgrey;
         font-size: 19px;
