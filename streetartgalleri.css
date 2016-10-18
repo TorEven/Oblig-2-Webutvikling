@@ -1,0 +1,114 @@
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+ul li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+	background-color: #505056; /* mørkegrå */
+	font-size: 14px;
+	font-family: Century Gothic;
+	line-height: 1.5;
+/* 	text-align: left;
+	color: #FFF; */
+}
+header {
+	background-image: url("streetart6.jpg");
+	padding: 5em;
+	color: grey;
+	text-align: right;
+
+}
+
+a {
+	color: #cacaca; /* lysegrå */
+}
+
+img {
+	
+}
+
+h1 {
+	color: black;
+}
+
+h2 {
+	color: #cacaca; /* lysegrå */
+}
+
+nav {
+	background-color: #303032; /* svartgrå */
+}
+
+aside {
+    float:left;
+	margin: 20px 10px 30px 60px;
+	background-color: transparent;
+}
+
+footer {
+	color: #cacaca;
+    	clear:both;
+	text-align: center;
+}
