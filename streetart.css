@@ -100,7 +100,68 @@ h2 {
 }
 
 nav {
+	float: left;
+	width: 100%;
 	background-color: #303032; /* svartgrå */
+	
+}
+
+nav ul {  
+    list-style: none;  
+	text-align: center;
+
+} 
+
+nav ul li {  
+    display: inline-block;  
+	margin-left: 2%;
+	margin-right: 3%;
+	
+} 
+
+nav ul li a {  
+    display: block; 
+    font-size: 18px;  
+    text-decoration: none;
+	padding: 5%;
+	
+}
+
+nav ul li:hover a {
+	background-color: grey;
+	
+}
+
+nav ul li ul{
+	display:none;
+	position:absolute;
+	
+}
+
+nav ul li:hover ul{
+	display: block;
+	background-color: grey;
+	border:2px solid #cccccc;
+	
+}
+
+nav ul li ul li:hover a {
+	background-color: darkgrey;
+	
+}
+
+nav ul li ul li{
+	display: block;
+	border-style: none;
+	
+}
+
+
+nav ul li ul li a{
+	display: block;
+	text-align: center;
+	margin-left: -20%;
+	margin-right: 20%;
 }
 
 article {
