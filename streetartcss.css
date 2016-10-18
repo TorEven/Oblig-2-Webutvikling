@@ -84,7 +84,7 @@ img {
 }
 
 h1 {
-	color: black;
+  color: black;
 }
 
 h2 {
@@ -96,8 +96,8 @@ nav {
 }
 
 article {
-		color: #cacaca;
-		position: absolute;
+        color: #cacaca;
+	position: absolute;
         top: 300px;
         left: 550px;
         color: lightgrey;
@@ -106,19 +106,19 @@ article {
         solid black;
         padding: 15px;
         max-width: 100%;
-		height: auto;
+	height: auto;
         text-align: right;
 }
 
 aside {
     float:left;
-	margin: 20px 10px 30px 60px;
-	background-color: transparent;
+    margin: 20px 10px 30px 60px;
+    background-color: transparent;
 }
 
 footer {
 	color: #cacaca;
-    clear:both;
+        clear:both;
 	text-align: center;
 }
 
@@ -150,15 +150,15 @@ footer {
 	
     body {
 	background-color: #505056; /* mørkegrå */
-    font-size: 10px;
+        font-size: 10px;
 	font-family: Century Gothic;
 	line-height: 1.5;
     }
 	
 	nav {
-	background-color: #303032; /* svartgrå */
-	float:none;
-	width: auto;
+	  background-color: #303032; /* svartgrå */
+	  float:none;
+	  width: auto;
 	/* left: 0px;
     top: 0px;
     position: fixed;
@@ -167,8 +167,8 @@ footer {
 	}
 	
 	article {
-		float: none;
-			width: 100%;
+	   float: none;
+	   width: 100%;
 		
 	}
 
