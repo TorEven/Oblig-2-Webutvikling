@@ -101,7 +101,7 @@ article {
 }
 
 section {
-    float:none;
+    float:left;
 	margin: 20px 10px 30px 60px;
 	background-color: transparent;
 }
@@ -131,9 +131,6 @@ footer {
 		float: none;
 }
 
-section {
-    float: none;
-	
-}
+
 
 }
