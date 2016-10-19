@@ -100,11 +100,12 @@ article {
         text-align: right;
 		float: right;
 		width: 50%;
+		margin-right: 10%;
 }
 
 section {
     float:left;
-	margin: 20px 10px 30px 140px;
+	margin: 20px 10px 30px 10%;
 	background-color: transparent;
 	width: 25%;
 }
@@ -117,7 +118,7 @@ footer {
 
 
 /* tablet */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 	h1 {
 		font-size: 50px;
 	}
@@ -128,17 +129,19 @@ footer {
     }
 	
 	article {
-		position: right;
+		position: center;
+		float: center;
         color: lightgrey;
-        font-size: 15px;
+        font-size: 14px;
 		text-align: center;
 		width: 100%;
+		margin: 0 0 0 0;
+		padding: 2% 0 2% 10%;
 	}
 	
 	section {
     float:center;
 	margin-left: 30%;
-	
 	background-color: transparent;
 	position: center;
 	width: 40%;
@@ -165,6 +168,8 @@ footer {
         font-size: 13px;
 		text-align: center;
 		width: 100%;
+		margin: 0 0 0 0;
+		padding: 2% 0 2% 10%;
 	}
 	
 	section {
@@ -173,6 +178,11 @@ footer {
 	background-color: transparent;
 	position: center;
 	width: 100%;
+	margin: 0 0 0 0;
+	}
+	
+	footer {
+		font-size: 11px;
 	}
 
 
