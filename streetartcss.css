@@ -137,7 +137,8 @@ footer {
 	
 	section {
     float:center;
-	margin: 20px 10px 30px auto;
+	margin-left: 30%;
+	
 	background-color: transparent;
 	position: center;
 	width: 40%;
