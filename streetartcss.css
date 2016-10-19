@@ -88,7 +88,7 @@ nav {
 
 article {
 		color: #cacaca;
-		position: absolute;
+		position: right;
         top: 300px;
         left: 550px;
         color: lightgrey;
@@ -97,13 +97,15 @@ article {
         max-width: 100%;
 		height: auto;
         text-align: right;
-		float: none;
+		float: right;
+		width: 50%;
 }
 
 section {
     float:left;
 	margin: 20px 10px 30px 60px;
 	background-color: transparent;
+	width: 25%;
 }
 
 footer {
@@ -116,6 +118,7 @@ footer {
 /* tablet */
 
 
+
 /* mobil */
 @media only screen and (max-width: 480px) {
 	
@@ -124,13 +127,20 @@ footer {
     }
 	
 	article {
-		position: auto;
+		position: center;
         color: lightgrey;
         font-size: 13px;
+		text-align: center;
 		width: 100%;
-		float: none;
-}
-
+	}
+	
+	section {
+    float:center;
+	margin: 20px 10px 30px auto;
+	background-color: transparent;
+	position: center;
+	width: 100%;
+	}
 
 
 }
