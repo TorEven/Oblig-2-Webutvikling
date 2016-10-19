@@ -1,20 +1,4 @@
-@media screen and (min-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-}
 
-@media screen and (min-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-}
-
-@media screen and (min-width: 480px) {
-    body {
-        font-size: 14px;
-    }
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -85,28 +69,13 @@ a {
 	color: #cacaca; /* lysegrå */
 }
 
-article {
-	color: #cacaca;
-	position: absolute;
-    top: 300px;
-    left: 450px;
-    color: lightgrey;
-    font-size: 19px;
-    border: 1px solid black;
-    padding: 5px;
-    width: 1000px;
-    height: 1400px;
-    text-align: right;
-}
-
-article img {
-	width: 300px;
-	padding: 10px;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 h1 {
 	color: black;
-	font-size: 35px;
 }
 
 h2 {
@@ -117,7 +86,21 @@ nav {
 	background-color: #303032; /* svartgrå */
 }
 
-aside {
+article {
+		color: #cacaca;
+		position: absolute;
+        top: 300px;
+        left: 550px;
+        color: lightgrey;
+        font-size: 19px;
+        padding: 15px;
+        max-width: 100%;
+		height: auto;
+        text-align: right;
+		float: right;
+}
+
+section {
     float:left;
 	margin: 20px 10px 30px 60px;
 	background-color: transparent;
@@ -125,6 +108,36 @@ aside {
 
 footer {
 	color: #cacaca;
-    	clear:both;
+    clear:both;
 	text-align: center;
+}
+
+
+/* tablet */
+
+
+/* mobil */
+@media only screen and (max-width: 480px) {
+	
+    nav{
+        width: 100%;
+    }
+	
+	article {
+		position: auto;
+        color: lightgrey;
+        font-size: 13px;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	
+	section {
+    float:center;
+	margin: 20px 10px 30px auto;
+	background-color: transparent;
+	position: center;
+	}
+
+
 }
